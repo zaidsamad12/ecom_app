@@ -1,3 +1,7 @@
+layout: default
+title: E-Commerce Microservices Backend
+---
+
 # 🧩 E-Commerce Microservices Backend (Java + Spring Boot)
 
 A **backend-only** microservices architecture built using **Java + Spring Boot**, demonstrating real-world design patterns for scalable backend systems.  
@@ -106,7 +110,8 @@ sequenceDiagram
     ST-->>Pay: { checkout_url }
   end
   Pay-->>PS: { payment_link }
-  PS-->>Client: returns payment link (backend only)
   RP-->>Pay: webhook (success/failure)
   ST-->>Pay: webhook (success/failure)
   Pay-->>PS: update payment status
+
+<!-- Mermaid JS (client-side render) --> <script src="https://unpkg.com/mermaid@10/dist/mermaid.min.js"></script> <script> mermaid.initialize({ startOnLoad: true, securityLevel: 'loose' }); </script>
