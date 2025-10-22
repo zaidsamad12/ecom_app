@@ -7,13 +7,13 @@ It includes **User**, **Product**, and **Payment** services — communicating vi
 
 ## 🔗 Repositories
 
-- **User Service (internal)** → https://github.com/zee/UserService  
+- **User Service (internal)** → https://github.com/zaidsamad12/UserService
   *Provides user context, roles, and authentication — consumed internally by Product Service.*
 
-- **Product Service (public API)** → https://github.com/zee/ProductService  
+- **Product Service (public API)** → https://github.com/zaidsamad12/ProductService_Proxy
   *Manages products, search, caching, and payment initiation.*
 
-- **Payment Service (external integrations)** → https://github.com/zee/PaymentService  
+- **Payment Service (external integrations)** → https://github.com/zaidsamad12/PaymentService
   *Integrates with Razorpay and Stripe to create and verify payment links.*
 
 ---
