@@ -113,5 +113,10 @@ sequenceDiagram
   RP-->>Pay: webhook (success/failure)
   ST-->>Pay: webhook (success/failure)
   Pay-->>PS: update payment status
+```     
 
-<!-- Mermaid JS (client-side render) --> <script src="https://unpkg.com/mermaid@10/dist/mermaid.min.js"></script> <script> mermaid.initialize({ startOnLoad: true, securityLevel: 'loose' }); </script>
+<!-- Mermaid JS (client-side render) -->
+<script src="https://unpkg.com/mermaid@10/dist/mermaid.min.js"></script>
+<script>
+  mermaid.initialize({ startOnLoad: true, securityLevel: 'loose' });
+</script>
