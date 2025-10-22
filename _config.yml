@@ -1,0 +1,4 @@
+theme: jekyll-theme-cayman   # or any Pages theme you like
+markdown: kramdown
+kramdown:
+  input: GFM                 # GitHub-Flavored Markdown (tables, checklists, etc.)
