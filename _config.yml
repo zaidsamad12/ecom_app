@@ -1,6 +1,8 @@
-# Enable GitHub-Flavored Markdown tables and HTML passthrough
+# GitHub Pages config
+theme: jekyll-theme-cayman
+
 markdown: kramdown
 kramdown:
-  input: GFM
+  input: GFM            # enables GitHub-Flavored Markdown (tables)
   hard_wrap: false
-theme: jekyll-theme-cayman   # or any GitHub Pages theme you like
+  parse_block_html: true
